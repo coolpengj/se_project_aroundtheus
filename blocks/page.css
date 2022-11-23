@@ -1,0 +1,51 @@
+.page {
+    background-color: #000000;
+    font-family: 'Inter', sans-serif;
+}
+
+.page__section {
+    max-width: 880px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.page__content {
+    background-color: black;
+    min-height: 100h;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .page__section {
+        max-width: 500px;
+        margin: 0 auto;
+        width: 100%;
+        box-sizing: border-box;
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    .page__section {
+        max-width: 880px;
+        margin: 0 auto;
+        width: 100%;
+        box-sizing: border-box;
+        position: relative;
+    }
+}
+
+
+@media screen and (min-width: 1280px) and (max-width: 1500px) {
+    .page__section {
+        max-width: 880px;
+        margin: 0 auto;
+        width: 100%;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+}
