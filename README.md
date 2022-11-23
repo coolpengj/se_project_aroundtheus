@@ -13,3 +13,5 @@ This is the third project of the Software Engineer program at Practicum by Yande
 ##Plan on improving the project
 
 I need to more practice and understanding on when it would be ideal to use min/max functions for width. I still have a hard time underestanding when to use percetnage values, or just setting adaptive values in general. I also need more practice on grid layouts.
+
+Website: https://coolpengj.github.io/se_project_aroundtheus/
