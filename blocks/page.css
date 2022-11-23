@@ -13,7 +13,7 @@
 
 .page__content {
     background-color: black;
-    min-height: 100h;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }

@@ -1,5 +1,0 @@
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(3, calc(880px / 3) );
-    grid-template-rows: repeat (3, calc(742px))
-}
