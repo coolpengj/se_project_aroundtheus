@@ -1,21 +1,15 @@
 # Project 3: Around The U.S.
 
-### Overview  
+This is the third project of the Software Engineer program at Practicum by Yandex. It was created using HTML and CSS and mainly focused on making a webpage responsive at different screen resolutions.
 
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)  
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+##Project Features
+
+- Semantic HTML5
+- Flexbox
+- Grid Layout
+- BEM Structure
+- Optimization for all devices to for adaptivity
+
+##Plan on improving the project
+
+I need to more practice and understanding on when it would be ideal to use min/max functions for width. I still have a hard time underestanding when to use percetnage values, or just setting adaptive values in general. I also need more practice on grid layouts.
