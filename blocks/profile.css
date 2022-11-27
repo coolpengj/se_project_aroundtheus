@@ -1,9 +1,8 @@
 .profile {
-    margin-top: 40px;
+    padding-top: 40px;
     display: grid;
     grid-template-columns: 0.5fr 1.5fr 1fr;
     min-width: 220px;
-    margin: 40px auto 0;
     grid-template-areas: "avatar info button";
 }
 
@@ -48,7 +47,7 @@
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 22px;
     color: white;
     max-width: 415px;
     margin-bottom: 0;
@@ -64,6 +63,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.profile__button-image {
+    width: 10px;
+    height: 10px;
 }
 
 .profile__button-edit:hover {
@@ -111,32 +115,37 @@
 
     .profile__information {
        display: grid;
-       grid-template-columns: 8fr 2fr;
-       grid-template-areas: 
-       "title edit"
-       "description description";
+       grid-template-columns: 8fr 1fr;
+       justify-content: center;
+       align-content: center;
+       align-items: center;
        margin-top: 26.25px;
     }
 
     .profile__title {
-        grid-area: title;
+        
         font-family: 'Inter', sans-serif;
         font-weight: 500;
         font-size: 22px;
         line-height: 1.2;
         text-align: center;
         margin: auto;
+        
     }
 
 
     .profile__button-edit {
-        grid-area: edit;
         margin: auto auto auto 0;
+        width: 18px;
+        height: 18px;
     }
 
     .profile__description {
-        grid-area: description;
         margin: auto;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+
     }
 
     .profile__button-add {
@@ -147,16 +156,23 @@
         min-width: 282px;
     }
 
+    .profile__button-image {
+        width: 7.49px;
+        height: 7.49px;
+    }
+
+    .profile__button-image-add {
+        width: 16px;
+        height: 16px;
+    }
 }
 
 @media screen and (min-width: 640px) and (max-width: 920px) {
     .profile {
-        margin-top: 40px;
         display: grid;
         grid-template-columns: 0.7fr 1.5fr 1fr;
         max-width: 768px;
         width: 90%;
-        margin: 40px auto 0;
         grid-template-areas: "avatar info button";
 
 }
