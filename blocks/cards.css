@@ -1,5 +1,5 @@
 .cards {
-    padding-top: 47.25px;
+    padding-top: 50px;
 }
 
 .cards__list {
@@ -8,6 +8,7 @@
     grid-auto-rows: 361px;
     padding: 0;
     grid-gap: 20px 17px;
+    margin: 0;
 }
 
 

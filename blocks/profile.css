@@ -106,7 +106,6 @@
         max-width: 320px;
         margin: 0 auto;
         flex-wrap: wrap;
-        margin-top: 38.25px;
     }
 
     .profile__image {
@@ -115,11 +114,15 @@
 
     .profile__information {
        display: grid;
-       grid-template-columns: 8fr 1fr;
+       grid-template-columns: auto auto;
+       grid-template-areas:
+       "title edit"
+       "description description";
+       grid-gap: 14px 10px;
        justify-content: center;
        align-content: center;
        align-items: center;
-       margin-top: 26.25px;
+       margin-top: 30px;
     }
 
     .profile__title {
@@ -129,15 +132,16 @@
         font-size: 22px;
         line-height: 1.2;
         text-align: center;
-        margin: auto;
-        
+        grid-area: title;
+        margin: 0;
     }
 
 
     .profile__button-edit {
-        margin: auto auto auto 0;
+        margin: auto;
         width: 18px;
         height: 18px;
+        grid-area: edit;
     }
 
     .profile__description {
@@ -145,12 +149,12 @@
         font-size: 14px;
         line-height: 17px;
         text-align: center;
+        grid-area: description;
 
     }
 
     .profile__button-add {
         margin-top: 36px;
-        margin-bottom: 36px;
         margin-right: auto;
         margin-left: auto;
         min-width: 282px;
