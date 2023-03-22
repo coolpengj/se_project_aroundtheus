@@ -30,6 +30,7 @@ const initialCards = [
     },
 ];
 
+initialCards[2].link
 
 
 
